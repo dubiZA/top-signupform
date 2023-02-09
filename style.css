@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf");
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.imagesection {
+    flex: 2;
+    background: url("./fern.jpg") center center;
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.35);
+    font-family: "Norse Bold";
+}
+
+.formsection {
+    flex: 3;
+}
