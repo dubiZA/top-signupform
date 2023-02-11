@@ -3,6 +3,19 @@
     src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf");
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+em {
+    font-style: italic;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -16,10 +29,43 @@
 
 .banner {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.35);
     font-family: "Norse Bold";
+    padding: 10px;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.banner img {
+    height: 120px;
+}
+
+.banner h1 {
+    font-size: 6rem;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .formsection {
     flex: 3;
+    background-color: rgb(253 255 249);
+    padding-top: 100px;
+}
+
+.formdescription {
+    padding-left: 40px;
+    padding-right: 200px;
+}
+
+.signup-form {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 200px;
+    box-shadow: 0 2px 5px rgb(206, 206, 206);
+}
+
+.form-fields {
+    background-color: rgb(255, 255, 255);
 }
