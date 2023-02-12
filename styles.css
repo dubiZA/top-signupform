@@ -27,6 +27,8 @@ em {
 
 .left {
   flex: 2;
+  display: flex;
+  flex-direction: column;
   background-image: url("fern.jpg");
   background-size: cover;
 }
@@ -50,6 +52,20 @@ em {
   font-size: 7rem;
   color: #FFFFFF;
   margin-top: 28px
+}
+
+.img-attribution {
+  margin-top: auto;
+  padding: 5px;
+  text-align: right;
+  color: #d1e0c4;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.img-attribution a {
+  color: #596D48;
+  text-decoration: none;
 }
 
 .right {
