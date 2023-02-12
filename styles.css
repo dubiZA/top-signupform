@@ -76,6 +76,7 @@ em {
   margin-top: 207px;
   max-width: 750px;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .signup-form {
@@ -119,18 +120,23 @@ em {
 .form-row input[type='password'],
 .form-row input[type='email'] {
   background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
+  border: 1px solid #E5E7EB;
   border-radius: 3px;
   width: 100%;
   padding: 7px;
   font-size: 14px;
 }
 
-.form-row input[type='text']:invalid,
-.form-row input[type='email']:invalid {
+.form-row input:focus {
+  outline: none;
+  /* border: 1px solid #4f81ff; */
+  box-shadow: 0 0 5px #2b448d;
+}
+
+input:focus:invalid{
   border: 1px solid #D55C5F;
   color: #D55C5F;
-  box-shadow: none;
+  box-shadow: 0 0 5px #D55C5F;
 }
 
 .form-row label {
